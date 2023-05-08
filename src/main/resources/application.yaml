@@ -1,0 +1,9 @@
+server:
+  port: 8082
+
+oss:
+  qiniu:
+    url: 自己的域名 # 这里如果有自己的域名就去绑定自己的 没有的就只能使用七牛云的测试域名
+    accessKey: 公钥
+    secretKey: 密钥
+    bucketName: 空间名
